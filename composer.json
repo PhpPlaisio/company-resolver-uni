@@ -1,0 +1,32 @@
+{
+  "name": "setbased/abc-domain-resolver-uni",
+  "description": "ABC Framework: Uni Domain Resolver",
+  "keywords": [
+    "framework",
+    "domain",
+    "resolver"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "require-dev": {
+    "phing/phing": "^2.0.0",
+    "phpunit/phpunit": "^6.0.0"
+  },
+  "require": {
+    "php": ">=7.0.0",
+    "setbased/abc-domain-resolver": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "SetBased\\Abc\\DomainResolver\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "SetBased\\Abc\\DomainResolver\\Test\\": "test"
+    }
+  },
+  "config": {
+    "bin-dir": "bin"
+  }
+}
