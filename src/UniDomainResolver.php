@@ -10,7 +10,12 @@ class UniDomainResolver implements DomainResolver
 {
   //--------------------------------------------------------------------------------------------------------------------
   /**
-   * {@inheritdoc}
+   * Returns the domain (a.k.a. company abbreviation) which is always SYS.
+   *
+   * @return string
+   *
+   * @api
+   * @since 1.0.0
    */
   public function getDomain()
   {
