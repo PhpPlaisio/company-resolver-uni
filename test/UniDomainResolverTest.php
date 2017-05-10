@@ -6,7 +6,7 @@ use PHPUnit\Framework\TestCase;
 use SetBased\Abc\DomainResolver\UniDomainResolver;
 
 //----------------------------------------------------------------------------------------------------------------------
-class DomainResolverTest extends TestCase
+class UniDomainResolverTest extends TestCase
 {
   //--------------------------------------------------------------------------------------------------------------------
   /**
