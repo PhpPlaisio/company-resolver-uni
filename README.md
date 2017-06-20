@@ -1,4 +1,4 @@
-# ABC-Framework: Canonical Hostname Resolver
+# ABC-Framework: Uni Domain Resolver
 
 <table>
 <thead>
