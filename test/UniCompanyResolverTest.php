@@ -1,22 +1,27 @@
 <?php
 //----------------------------------------------------------------------------------------------------------------------
-namespace SetBased\Abc\DomainResolver\Test;
+namespace SetBased\Abc\CompanyResolver\Test;
 
 use PHPUnit\Framework\TestCase;
-use SetBased\Abc\DomainResolver\UniDomainResolver;
+use SetBased\Abc\CompanyResolver\UniCompanyResolver;
 
-//----------------------------------------------------------------------------------------------------------------------
-class UniDomainResolverTest extends TestCase
+/**
+ * Test cases for class UniCompanyResolver.
+ */
+class UniCompanyResolverTest extends TestCase
 {
   //--------------------------------------------------------------------------------------------------------------------
-  /**
-   * getDomain must return 'SYS' always.
-   */
-  public function testGetDomain()
-  {
-    $resolver = new UniDomainResolver();
+  const CMP_ID_SYS = 1;
 
-    $this->assertSame('SYS', $resolver->getDomain());
+  //--------------------------------------------------------------------------------------------------------------------
+  /**
+   * getCompany must return 'SYS' always.
+   */
+  public function testGetCompany()
+  {
+    $resolver = new UniCompanyResolver(self::CMP_ID_SYS);
+
+    $this->assertSame(self::CMP_ID_SYS, $resolver->getCmpId());
   }
 
   //--------------------------------------------------------------------------------------------------------------------

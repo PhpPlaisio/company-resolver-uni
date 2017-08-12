@@ -1,10 +1,11 @@
 {
-  "name": "setbased/abc-domain-resolver-uni",
-  "description": "ABC Framework: Uni Domain Resolver",
+  "name": "setbased/abc-company-resolver-uni",
+  "description": "ABC-Framework: Uni Company Resolver",
   "keywords": [
-    "framework",
-    "domain",
-    "resolver"
+    "ABC-Framework",
+    "Uni",
+    "Company",
+    "Resolver"
   ],
   "type": "library",
   "license": "MIT",
@@ -14,16 +15,16 @@
   },
   "require": {
     "php": ">=7.0.0",
-    "setbased/abc-domain-resolver": "*"
+    "setbased/abc-company-resolver": "^0.10.1"
   },
   "autoload": {
     "psr-4": {
-      "SetBased\\Abc\\DomainResolver\\": "src/"
+      "SetBased\\Abc\\CompanyResolver\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "SetBased\\Abc\\DomainResolver\\Test\\": "test"
+      "SetBased\\Abc\\CompanyResolver\\Test\\": "test"
     }
   },
   "config": {
