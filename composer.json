@@ -15,7 +15,7 @@
   },
   "require": {
     "php": ">=7.0.0",
-    "setbased/abc-company-resolver": "^0.10.1"
+    "setbased/abc-company-resolver": "^1.0.0"
   },
   "autoload": {
     "psr-4": {
@@ -24,7 +24,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "SetBased\\Abc\\CompanyResolver\\Test\\": "test"
+      "SetBased\\Abc\\CompanyResolver\\Test\\": "test/"
     }
   },
   "config": {
