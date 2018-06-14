@@ -1,8 +1,7 @@
 <?php
-//----------------------------------------------------------------------------------------------------------------------
+
 namespace SetBased\Abc\CompanyResolver;
 
-//----------------------------------------------------------------------------------------------------------------------
 /**
  * Company resolver for website with a single domain only.
  */
@@ -25,7 +24,7 @@ class UniCompanyResolver implements CompanyResolver
    * @api
    * @since 1.0.0
    */
-  public function __construct($cmpId)
+  public function __construct(int $cmpId)
   {
     $this->cmpId = $cmpId;
   }
@@ -39,7 +38,7 @@ class UniCompanyResolver implements CompanyResolver
    * @api
    * @since 1.0.0
    */
-  public function getCmpId()
+  public function getCmpId(): int
   {
     return $this->cmpId;
   }
