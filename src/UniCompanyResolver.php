@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace SetBased\Abc\CompanyResolver;
+namespace Plaisio\CompanyResolver;
 
 /**
  * Company resolver for website with a single domain only.

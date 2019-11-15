@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace SetBased\Abc\CompanyResolver\Test;
+namespace Plaisio\CompanyResolver\Test;
 
 use PHPUnit\Framework\TestCase;
-use SetBased\Abc\CompanyResolver\UniCompanyResolver;
+use Plaisio\CompanyResolver\UniCompanyResolver;
 
 /**
  * Test cases for class UniCompanyResolver.
