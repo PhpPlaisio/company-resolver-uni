@@ -18,7 +18,7 @@ class UniCompanyResolverTest extends TestCase
   /**
    * getCompany must return 'SYS' always.
    */
-  public function testGetCompany()
+  public function testGetCompany(): void
   {
     $resolver = new UniCompanyResolver(self::CMP_ID_SYS);
 
