@@ -10,14 +10,6 @@ class UniCompanyResolver implements CompanyResolver
 {
   //--------------------------------------------------------------------------------------------------------------------
   /**
-   * The ID of the company.
-   *
-   * @var int
-   */
-  private $cmpId;
-
-  //--------------------------------------------------------------------------------------------------------------------
-  /**
    * Object constructor.
    *
    * @param int $cmpId The ID of the company.
@@ -28,20 +20,6 @@ class UniCompanyResolver implements CompanyResolver
   public function __construct(int $cmpId)
   {
     $this->cmpId = $cmpId;
-  }
-
-  //--------------------------------------------------------------------------------------------------------------------
-  /**
-   * Returns the ID of the company.
-   *
-   * @return int
-   *
-   * @api
-   * @since 1.0.0
-   */
-  public function getCmpId(): int
-  {
-    return $this->cmpId;
   }
 
   //--------------------------------------------------------------------------------------------------------------------

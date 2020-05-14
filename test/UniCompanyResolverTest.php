@@ -16,13 +16,13 @@ class UniCompanyResolverTest extends TestCase
 
   //--------------------------------------------------------------------------------------------------------------------
   /**
-   * getCompany must return 'SYS' always.
+   * Test case for $cmp_id property.
    */
   public function testGetCompany(): void
   {
     $resolver = new UniCompanyResolver(self::CMP_ID_SYS);
 
-    $this->assertSame(self::CMP_ID_SYS, $resolver->getCmpId());
+    $this->assertSame(self::CMP_ID_SYS, $resolver->cmpId);
   }
 
   //--------------------------------------------------------------------------------------------------------------------
