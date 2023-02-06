@@ -6,6 +6,7 @@ namespace Plaisio\CompanyResolver;
 /**
  * Company resolver for website with a single domain only.
  */
+#[\AllowDynamicProperties]
 class UniCompanyResolver implements CompanyResolver
 {
   //--------------------------------------------------------------------------------------------------------------------
