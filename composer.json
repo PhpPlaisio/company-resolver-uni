@@ -10,7 +10,7 @@
   "license": "MIT",
   "require": {
     "php": ">=8.3",
-    "plaisio/company-resolver": "^2.0"
+    "plaisio/company-resolver": "^2.2.0"
   },
   "require-dev": {
     "ext-dom": "*",
